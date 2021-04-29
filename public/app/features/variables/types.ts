@@ -12,7 +12,7 @@ import { NEW_VARIABLE_ID } from './state/types';
 import { VariableQueryProps } from '../../types';
 
 export enum VariableRefresh {
-  never,
+  never, // removed from the UI but used for snapshot scenario
   onDashboardLoad,
   onTimeRangeChanged,
 }
